@@ -449,6 +449,11 @@ footer {
   justify-content: center;
 }
 
+.media-contaner{
+  margin-right: 80px;
+
+}
+
 .icon-list-footer {
   width: 100%;
   height: 100%;
@@ -464,6 +469,76 @@ footer {
 .icon-list-footer:hover,
 .icon-list-footer:focus {
   background-color: #31d0aa;
+}
+
+.subscribe-section {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  display: block;
+  padding-bottom: 16px;
+}
+
+.footer-send-btn {
+  border-radius: 4px;
+  padding: 8px 24px;
+  min-width: 165px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.footer-plane {
+  fill: #ffffff;
+}
+
+.footer-plane {
+  position: absolute;
+  right: 24px;
+  top: 8px;
+}
+
+.form-footer {
+  display: flex;
+  align-items: baseline;
+  gap: 24px;
+}
+
+.footer-send-btn:hover,
+.footer-send-btn:focus {
+  background-color: #404bbf;
+}
+
+.subscribe-container{
+
+}
+
+.modal-input-footer {
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  outline: transparent;
+  width: 264px;
+  height: 40px;
+  background-color: #2e2f42;
+  padding-left: 16px;
+}
+
+.modal-input-footer::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 200%;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 }
 
 .backdrop {
@@ -596,6 +671,14 @@ footer {
   resize: none;
 }
 
+textarea::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+}
+
 .checkbox-label {
   font-weight: 400;
   font-size: 12px;
@@ -613,13 +696,37 @@ footer {
 
 .checkbox-label span {
   border-radius: 2px;
-  border: 1px solid #2e2f42;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   width: 16px;
   height: 16px;
   margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
 }
 
-.form-check:checked + .checkbox-label span {
+.form-check :checked + .checkbox-label span {
   background-color: #4d5ae5;
   border: none;
+  fill: fffffff;
+}
+
+.modal-send {
+  border-radius: 4px;
+  padding: 16px 32px;
+  min-width: 169px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  margin-top: 24px;
+  margin-left: 96px;
+  margin-right: 96px;
 }
