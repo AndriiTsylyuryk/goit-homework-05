@@ -463,27 +463,28 @@
         </div>
         <div class="subscribe-container">
           <p class="subscribe-section">Subscribe</p>
-            <form class="form-footer">
-                <label class="user-email-footer">
-                  <input
-                    type="email"
-                    name="user-email"
-                    class="modal-input-footer"
-                    id="user-email-footer"
-                    placeholder="E-mail"
-                  />
-                </label>
-                <button type="submit" class="footer-send-btn">Subscribe
-                <svg class="footer-plane" width="24" height="24">
-                  <use href="./images/icons.svg#icon-plane"></use>
-                </svg>
-              </button>
-            </form>
-          </div>
+          <form class="form-footer">
+            <label class="user-email-footer">
+              <input
+                type="email"
+                name="user-email"
+                class="modal-input-footer"
+                id="user-email-footer"
+                placeholder="E-mail"
+              />
+            </label>
+            <button type="submit" class="footer-send-btn">
+              Subscribe
+              <svg class="footer-plane" width="24" height="24">
+                <use href="./images/icons.svg#icon-plane"></use>
+              </svg>
+            </button>
+          </form>
         </div>
+      </div>
     </footer>
     <div class="backdrop is-open">
-      <div class="modal ">
+      <div class="modal">
         <button type="button" class="modal-close-btn">
           <svg class="icon-close" width="8" height="8">
             <use href="./images/icons.svg#icon-vector"></use>
@@ -509,7 +510,7 @@
             <label for="user-phone" class="name-label">Phone</label>
             <div class="modal-input-wrap">
               <input
-                type="text"
+                type="tel"
                 name="user-phone"
                 class="modal-input"
                 id="user-phone"
@@ -523,7 +524,7 @@
             <label for="user-email" class="name-label">Email</label>
             <div class="modal-input-wrap">
               <input
-                type="text"
+                type="email"
                 name="user-email"
                 class="modal-input"
                 id="user-email"
@@ -535,12 +536,12 @@
           </div>
           <div class="modal-field-area">
             <label for="user-comment" class="name-label">Comment</label>
-              <textarea
-                name="user-comment"
-                id="user-comment"
-                class="area-text"
-                placeholder="Text input"
-              ></textarea>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              class="area-text"
+              placeholder="Text input"
+            ></textarea>
           </div>
           <div class="modal-checkbox">
             <input
@@ -554,8 +555,8 @@
               <span class="footer-span">
                 <svg class="tick" width="10" height="8">
                   <use href="./images/icons.svg#icon-tick"></use>
-                </svg>
-              </span>I accept the terms and conditions of the
+                </svg> </span
+              >I accept the terms and conditions of the
               <a href="index.html" class="label-link">Privacy Policy</a></label
             >
           </div>
