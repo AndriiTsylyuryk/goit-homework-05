@@ -450,7 +450,7 @@ footer {
 }
 
 .media-contaner {
-  margin-right: 80px;
+  margin-right: auto;
 }
 
 .icon-list-footer {
@@ -521,11 +521,10 @@ footer {
 .subscribe-container {
 }
 
-.modal-input-footer {
+.input-footer {
   border: 1px solid #ffffff;
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  outline: transparent;
   width: 264px;
   height: 40px;
   background-color: #2e2f42;
@@ -686,6 +685,7 @@ footer {
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   background-color: transparent;
+  display: block;
 }
 
 .area-text:hover,
@@ -755,7 +755,6 @@ textarea::placeholder {
   color: #ffffff;
   border: none;
   cursor: pointer;
-  margin-top: 24px;
   margin-left: 96px;
   margin-right: 96px;
   display: block;
